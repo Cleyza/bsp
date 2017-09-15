@@ -232,7 +232,12 @@ td.tr-caption {font-size:80%;}
 	text-align: center;
 	line-height: 30px;
 	color: #ffffff;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
 	border-radius: 50%;
+	-webkit-transition: 0.50s;
+	-moz-transition: 0.50s;
+	-o-transition: 0.50s;
 	transition: 0.50s;
 }
 
@@ -302,8 +307,8 @@ td.tr-caption {font-size:80%;}
 	background:#fff;
 	border-bottom-left-radius:2px 2px;
 	border-bottom-right-radius:2px 2px;
-	border-radius:3px;
 	-webkit-border-radius:3px;
+	border-radius:3px;
 	font-family:Arial;
 	font-size:18px;
 	color:#666;
